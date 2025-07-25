@@ -3,7 +3,7 @@ import cv2
 
 image_path = "ex3.jpg"
 model_1 = YOLO("yolo11s.pt")
-model_2 = YOLO("kb_yolo.pt")
+model_2 = YOLO("kb_yolo_syb.pt")
 
 results_1 = model_1(image_path)
 results_2 = model_2(image_path)
